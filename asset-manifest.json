@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/puzzled/static/css/main.9667fb98.chunk.css",
+    "main.css": "/puzzled/static/css/main.28e9b38b.chunk.css",
     "main.js": "/puzzled/static/js/main.1de85b83.chunk.js",
     "main.js.map": "/puzzled/static/js/main.1de85b83.chunk.js.map",
     "runtime~main.js": "/puzzled/static/js/runtime~main.c6b4df7f.js",
@@ -8,8 +8,9 @@
     "static/js/2.10d3abd8.chunk.js": "/puzzled/static/js/2.10d3abd8.chunk.js",
     "static/js/2.10d3abd8.chunk.js.map": "/puzzled/static/js/2.10d3abd8.chunk.js.map",
     "index.html": "/puzzled/index.html",
-    "precache-manifest.bcfc0efabbb7537746d75f3a3e11d46f.js": "/puzzled/precache-manifest.bcfc0efabbb7537746d75f3a3e11d46f.js",
+    "precache-manifest.061573dd36812fea8aec1889bb35bc24.js": "/puzzled/precache-manifest.061573dd36812fea8aec1889bb35bc24.js",
     "service-worker.js": "/puzzled/service-worker.js",
-    "static/css/main.9667fb98.chunk.css.map": "/puzzled/static/css/main.9667fb98.chunk.css.map"
+    "static/css/main.28e9b38b.chunk.css.map": "/puzzled/static/css/main.28e9b38b.chunk.css.map",
+    "static/media/App.css": "/puzzled/static/media/background.8b33b229.png"
   }
 }
