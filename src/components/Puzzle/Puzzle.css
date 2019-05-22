@@ -1,11 +1,19 @@
 .congrats {
-  width: 30vw;
-  height: 30vw;
+  width: 50vw;
+  height: 50vw;
   color: rgb(218, 231, 206);
   background: white;
-  font-size: 3rem;
+  font-size: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 15px solid rgb(218, 231, 206);
+}
+
+@media (min-width: 768px) {
+  .congrats {
+    width: 30vw;
+    height: 30vw;
+    font-size: 3rem;
+  }
 }
