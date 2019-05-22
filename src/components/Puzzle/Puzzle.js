@@ -25,9 +25,7 @@ class Puzzle extends Component {
     this.setState(() => ({ grid, gameWon: isWon }))
   }
 
-  restart = () => {
-    this.setState(() => ({ grid: game.reset(), gameWon: false }))
-  }
+  restart = (type) => { this.setState(() => ({ grid: game.reset(type), gameWon: false })) }
 
   render() {
     const { grid, gameWon } = this.state

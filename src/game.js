@@ -1,15 +1,15 @@
 import { generateGrid, swap, isNextToEmptyCell } from './utils'
 
 const Game = {
-  init({ size }) {
+  init({ size, type = 'default' }) {
     this.size = size
-    this.grid = generateGrid(size)
+    this.grid = generateGrid(size, type)
     this.won = false
 
     return this.grid
   },
 
-  reset() { return this.init({size: this.size }) },
+  reset(type) { return this.init({size: this.size, type }) },
 
   swapCell(index) {
     const emptyIndex = this.grid.indexOf(0)

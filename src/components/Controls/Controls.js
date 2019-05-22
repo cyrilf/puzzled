@@ -6,6 +6,7 @@ import './Controls.css'
 const Controls = ({ restart }) => (
   <div className="controls">
     <button onClick={restart}>Restart</button>
+    <button onClick={() => restart('easy')}>Restart (easy)</button>
   </div>
 )
 Controls.propTypes = {
