@@ -1,4 +1,4 @@
-import { generateGrid, getCoords } from './utils'
+import { generateGrid, swap, isNextToEmptyCell } from './utils'
 
 const Game = {
   init({ size }) {
@@ -9,28 +9,11 @@ const Game = {
     return this.grid
   },
 
-  reset() {
-    return this.init({size: this.size })
-  },
-
-  isNextToEmptyCell(index, emptyIndex) {
-    const cellCoords = getCoords(index, this.grid.length)
-    const emptyCoords = getCoords(emptyIndex, this.grid.length)
-
-    const sameRow = cellCoords.row === emptyCoords.row
-    const adjacentRow = Math.abs(cellCoords.row - emptyCoords.row) === 1
-    const sameColumn = cellCoords.column === emptyCoords.column
-    const adjacentColumn = Math.abs(cellCoords.column - emptyCoords.column) === 1
-    return (sameRow && adjacentColumn) || (sameColumn && adjacentRow)
-  },
-
-  swap(index, emptyIndex) {
-    [this.grid[index], this.grid[emptyIndex]] = [this.grid[emptyIndex], this.grid[index]]
-  },
+  reset() { return this.init({size: this.size }) },
 
   swapCell(index) {
     const emptyIndex = this.grid.indexOf(0)
-    this.isNextToEmptyCell(index, emptyIndex) && this.swap(index, emptyIndex)
+    isNextToEmptyCell(index, emptyIndex, this.grid.length) && swap(this.grid, index, emptyIndex)
 
     return [this.grid, this.isWon()]
   },

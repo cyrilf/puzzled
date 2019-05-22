@@ -7,3 +7,17 @@ export const getCoords = (index, gridSize) => ({
   row: Math.floor(index / Math.sqrt(gridSize)),
   column: Math.floor(index % Math.sqrt(gridSize)),
 })
+
+export const isNextToEmptyCell = (index, emptyIndex, gridSize) => {
+  const cellCoords = getCoords(index, gridSize)
+  const emptyCoords = getCoords(emptyIndex, gridSize)
+
+  const sameRow = cellCoords.row === emptyCoords.row
+  const adjacentRow = Math.abs(cellCoords.row - emptyCoords.row) === 1
+  const sameColumn = cellCoords.column === emptyCoords.column
+  const adjacentColumn = Math.abs(cellCoords.column - emptyCoords.column) === 1
+  return (sameRow && adjacentColumn) || (sameColumn && adjacentRow)
+}
+
+export const swap = (array, index, swapIndex) =>
+  [array[index], array[swapIndex]] = [array[swapIndex], array[index]]
