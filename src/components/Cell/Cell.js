@@ -5,7 +5,7 @@ import './Cell.css'
 
 const Cell = ({ index, number, onClick }) => (
   <button
-    className={`cell ${index + 1 === number ? 'cell-valid' : ''} ${number === 0 ? 'cell-void' : ''}`}
+    className={`cell${index + 1 === number ? ' cell-valid' : ''}${number === 0 ? ' cell-void' : ''}`}
     onClick={onClick}>
     {number}
   </button>

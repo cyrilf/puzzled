@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
 import Grid from '../Grid/Grid'
+import Controls from '../Controls/Controls'
 import game from '../../game'
 
 class Puzzle extends Component {
@@ -23,7 +24,7 @@ class Puzzle extends Component {
     this.setState(() => ({ grid, gameWon: isWon }))
   }
 
-  onNewPuzzle = () => {
+  restart = () => {
     this.setState(() => ({ grid: game.reset(), gameWon: false }))
   }
 
@@ -36,7 +37,7 @@ class Puzzle extends Component {
           ? <div>Congrats!</div>
           : <Grid items={grid} onClick={this.onCellClick}/>
         }
-        <button onClick={this.onNewPuzzle}>Restart</button>
+        <Controls restart={this.restart}/>
       </>
     )
   }

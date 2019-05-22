@@ -1,6 +1,16 @@
 .grid {
   display: flex;
   flex-wrap: wrap;
-  width: 300px;
+  width: 50vw;
+  height: 50vw;
   margin: 0 auto;
+  border: solid 15px rgb(206, 221, 229);
+  background: white;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    width: 30vw;
+    height: 30vw;
+  }
 }

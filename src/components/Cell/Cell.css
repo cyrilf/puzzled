@@ -1,15 +1,21 @@
 .cell {
-  max-width: 100px;
-  height: 100px;
-  color: white;
-  flex: 1 0 31%;
-  margin: 2px;
-  border: 0;
-  background: rgba(0, 0, 0, 1);
+  flex: 1 0 33.333%;
+  margin: 0;
+  border: 3px solid white;
+  color: black;
+  background: rgb(220, 219, 234);
+  font-size: 2rem;
+}
+
+.cell:focus {
+  outline: none;
+}
+.cell:active {
+   outline: 6px #f9d4ce solid;
 }
 
 .cell-valid {
-  background: rgba(30, 100, 20, 1)
+  background: rgb(218, 231, 206);
 }
 
 .cell-void {
