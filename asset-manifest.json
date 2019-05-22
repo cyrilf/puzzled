@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/puzzled/static/css/main.8ad886bb.chunk.css",
-    "main.js": "/puzzled/static/js/main.a0a951c5.chunk.js",
-    "main.js.map": "/puzzled/static/js/main.a0a951c5.chunk.js.map",
+    "main.css": "/puzzled/static/css/main.9667fb98.chunk.css",
+    "main.js": "/puzzled/static/js/main.1de85b83.chunk.js",
+    "main.js.map": "/puzzled/static/js/main.1de85b83.chunk.js.map",
     "runtime~main.js": "/puzzled/static/js/runtime~main.c6b4df7f.js",
     "runtime~main.js.map": "/puzzled/static/js/runtime~main.c6b4df7f.js.map",
-    "static/js/2.808e09cf.chunk.js": "/puzzled/static/js/2.808e09cf.chunk.js",
-    "static/js/2.808e09cf.chunk.js.map": "/puzzled/static/js/2.808e09cf.chunk.js.map",
+    "static/js/2.10d3abd8.chunk.js": "/puzzled/static/js/2.10d3abd8.chunk.js",
+    "static/js/2.10d3abd8.chunk.js.map": "/puzzled/static/js/2.10d3abd8.chunk.js.map",
     "index.html": "/puzzled/index.html",
-    "precache-manifest.d831b6cf81c1ba3b376b7350503cc92d.js": "/puzzled/precache-manifest.d831b6cf81c1ba3b376b7350503cc92d.js",
+    "precache-manifest.bcfc0efabbb7537746d75f3a3e11d46f.js": "/puzzled/precache-manifest.bcfc0efabbb7537746d75f3a3e11d46f.js",
     "service-worker.js": "/puzzled/service-worker.js",
-    "static/css/main.8ad886bb.chunk.css.map": "/puzzled/static/css/main.8ad886bb.chunk.css.map"
+    "static/css/main.9667fb98.chunk.css.map": "/puzzled/static/css/main.9667fb98.chunk.css.map"
   }
 }

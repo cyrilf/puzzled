@@ -1,2 +1,0 @@
-body{margin:0}.app{width:100vw;height:100vh;display:flex;align-items:center;justify-content:center;flex-direction:column}.cell{max-width:100px;height:100px;color:#fff;flex:1 0 31%;margin:2px;border:0;background:#000}.cell-valid{background:#1e6414}.cell-void{visibility:hidden}.grid{display:flex;flex-wrap:wrap;width:300px;margin:0 auto}
-/*# sourceMappingURL=main.8ad886bb.chunk.css.map */
