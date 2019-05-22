@@ -1,0 +1,17 @@
+.cell {
+  max-width: 100px;
+  height: 100px;
+  color: white;
+  flex: 1 0 31%;
+  margin: 2px;
+  border: 0;
+  background: rgba(0, 0, 0, 1);
+}
+
+.cell-valid {
+  background: rgba(30, 100, 20, 1)
+}
+
+.cell-void {
+  visibility: hidden;
+}
