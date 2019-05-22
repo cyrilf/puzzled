@@ -1,0 +1,11 @@
+.congrats {
+  width: 30vw;
+  height: 30vw;
+  color: rgb(218, 231, 206);
+  background: white;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 15px solid rgb(218, 231, 206);
+}

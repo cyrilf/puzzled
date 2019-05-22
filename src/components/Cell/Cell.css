@@ -2,7 +2,7 @@
   flex: 1 0 33.333%;
   margin: 0;
   border: 3px solid white;
-  color: black;
+  color: white;
   background: rgb(220, 219, 234);
   font-size: 2rem;
 }
@@ -11,7 +11,7 @@
   outline: none;
 }
 .cell:active {
-   outline: 6px #f9d4ce solid;
+   outline: 6px rgb(249, 212, 206) solid;
 }
 
 .cell-valid {

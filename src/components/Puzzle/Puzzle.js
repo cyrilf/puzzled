@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 import Grid from '../Grid/Grid'
 import Controls from '../Controls/Controls'
 import game from '../../game'
+import './Puzzle.css'
 
 class Puzzle extends Component {
   static propTypes = {
@@ -34,7 +35,7 @@ class Puzzle extends Component {
     return (
       <>
         { gameWon
-          ? <div>Congrats!</div>
+          ? <div className="congrats">Congrats!</div>
           : <Grid items={grid} onClick={this.onCellClick}/>
         }
         <Controls restart={this.restart}/>
