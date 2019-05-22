@@ -31,3 +31,4 @@ In order to build and deploy a new version you can simply run:
 - [ ] Allow the user to choose the size of the grid
 - [ ] Fix the hard-coded `33.333%` in the css to define a Cell size
 - [ ] Add a timer
+- [ ] Add a check to avoid generating an unsolvable puzzle
