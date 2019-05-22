@@ -5,13 +5,11 @@
   color: white;
   background: rgb(220, 219, 234);
   font-size: 2rem;
+  cursor: pointer;
 }
 
-.cell:focus {
-  outline: none;
-}
-.cell:active {
-   outline: 6px rgb(249, 212, 206) solid;
+.cell:hover {
+  background: rgb(198, 197, 211);
 }
 
 .cell-valid {
