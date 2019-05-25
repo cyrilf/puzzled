@@ -2,7 +2,6 @@
   "name": "puzzled",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cyrilf.github.io/puzzled",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
