@@ -8,7 +8,7 @@
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
+    "eslint": "^9.32.0",
     "eslint-plugin-react": "^7.13.0",
     "gh-pages": "^5.0.0",
     "prop-types": "^15.7.2"
